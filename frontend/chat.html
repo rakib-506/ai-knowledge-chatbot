@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KnowledgeDesk · Chat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-top">
+        <div class="brand"><span class="brand-mark"></span>KnowledgeDesk</div>
+        <button class="btn btn-ghost" id="new-chat">+ New chat</button>
+      </div>
+      <ul class="session-list" id="session-list" aria-label="Your chats"></ul>
+      <div class="sidebar-bottom">
+        <div class="who" id="who"></div>
+        <div class="links">
+          <a href="admin.html" id="admin-link" class="hidden">Manage knowledge</a>
+          <button id="logout">Log out</button>
+        </div>
+      </div>
+    </aside>
+
+    <main class="chat">
+      <header class="chat-header">
+        <button class="menu-btn" id="menu-btn" aria-label="Show chats">☰</button>
+        <h2 id="chat-title">New chat</h2>
+      </header>
+
+      <div class="messages" id="messages">
+        <div class="thread" id="thread"></div>
+      </div>
+
+      <div class="composer">
+        <form id="chat-form">
+          <textarea id="message" rows="1" placeholder="Ask a question…" aria-label="Your question" maxlength="2000"></textarea>
+          <button class="btn" id="send" type="submit">Send</button>
+        </form>
+        <p class="composer-note">Answers come only from the knowledge base. Press Enter to send, Shift+Enter for a new line.</p>
+      </div>
+    </main>
+  </div>
+  <script src="js/api.js"></script>
+  <script src="js/chat.js"></script>
+</body>
+</html>

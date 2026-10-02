@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KnowledgeDesk · Manage knowledge</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="admin-top">
+    <div class="brand"><span class="brand-mark"></span>KnowledgeDesk</div>
+    <nav><a href="chat.html">Back to chat</a><a href="/docs" target="_blank">API docs</a><button id="logout">Log out</button></nav>
+  </header>
+
+  <main class="admin">
+    <h1>Manage knowledge</h1>
+    <p>Add or remove documents. Changes work right away, with no retraining.</p>
+
+    <div class="stats" id="stats">
+      <div class="stat"><b id="s-docs">–</b><span>documents</span></div>
+      <div class="stat"><b id="s-chunks">–</b><span>searchable chunks</span></div>
+      <div class="stat"><b id="s-users">–</b><span>users</span></div>
+      <div class="stat"><b id="s-chats">–</b><span>chats</span></div>
+    </div>
+
+    <section class="section">
+      <h2>Add documents</h2>
+      <p>Files with the same name replace the old version.</p>
+      <div class="add-grid">
+        <div>
+          <label class="dropzone" id="dropzone" tabindex="0">
+            <strong>Drop files here or click to choose</strong>
+            PDF, TXT, MD, DOCX or HTML · up to 10 MB each
+            <input type="file" id="file-input" multiple accept=".pdf,.txt,.md,.docx,.html,.htm" hidden>
+          </label>
+          <div class="status" id="upload-status" role="status"></div>
+        </div>
+        <div>
+          <form id="url-form">
+            <label class="field"><span>Web page address</span>
+              <div class="url-row">
+                <input class="input" id="url-input" type="url" placeholder="https://example.com/page" required>
+                <button class="btn" type="submit" id="url-btn">Add page</button>
+              </div>
+            </label>
+          </form>
+          <div class="status" id="url-status" role="status"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="row-head">
+        <h2>Documents in the knowledge base</h2>
+        <button class="btn btn-ghost" id="reload-folder" title="Load every file in the knowledge_base folder again">Reload starter folder</button>
+      </div>
+      <p>The chatbot can only answer from these.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Name</th><th>Type</th><th>Words</th><th>Chunks</th><th>Added by</th><th></th></tr></thead>
+          <tbody id="doc-rows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="row-head">
+        <h2>Backend log</h2>
+        <button class="btn btn-ghost" id="refresh-logs">Refresh</button>
+      </div>
+      <p>The last 150 lines of backend/logs/app.log.</p>
+      <div class="logs" id="logs"></div>
+    </section>
+  </main>
+  <script src="js/api.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>
