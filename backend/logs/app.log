@@ -1,0 +1,264 @@
+2026-10-02 08:38:01 | INFO    | Starting backend ...
+2026-10-02 08:38:01 | INFO    | Created admin account 'admin'
+2026-10-02 08:38:01 | INFO    | Loading starter documents (the first start downloads a small embedding model) ...
+2026-10-02 08:38:08 | INFO    | Added document 'about_riverbend_university.md' (md): 2 chunks, 229 words
+2026-10-02 08:38:09 | INFO    | Added document 'admissions_guide.txt' (txt): 2 chunks, 316 words
+2026-10-02 08:38:09 | INFO    | Added document 'cse_department.html' (html): 2 chunks, 207 words
+2026-10-02 08:38:10 | INFO    | Added document 'exam_and_grading_policy.md' (md): 3 chunks, 335 words
+2026-10-02 08:38:10 | INFO    | Added document 'hostel_guide.txt' (txt): 2 chunks, 242 words
+2026-10-02 08:38:11 | INFO    | Added document 'library_rules.docx' (docx): 2 chunks, 272 words
+2026-10-02 08:38:11 | INFO    | Added document 'tuition_fees_and_scholarships.pdf' (pdf): 2 chunks, 320 words
+2026-10-02 08:38:11 | INFO    | Ready. New starter documents loaded: 7. Total chunks: 15. Model: gemini-2.5-flash
+2026-10-02 08:39:29 | WARNING | Failed login for 'rakibbracu.ac@gmail.com'
+2026-10-02 08:39:29 | INFO    | POST /api/auth/login -> 401 (3 ms)
+2026-10-02 08:39:48 | INFO    | POST /api/auth/register -> 422 (1 ms)
+2026-10-02 08:40:23 | INFO    | POST /api/auth/register -> 422 (1 ms)
+2026-10-02 08:40:26 | INFO    | POST /api/auth/register -> 422 (1 ms)
+2026-10-02 08:41:04 | INFO    | POST /api/auth/register -> 422 (1 ms)
+2026-10-02 08:41:05 | INFO    | POST /api/auth/register -> 422 (1 ms)
+2026-10-02 08:41:24 | INFO    | POST /api/auth/register -> 422 (1 ms)
+2026-10-02 08:41:25 | INFO    | POST /api/auth/register -> 422 (1 ms)
+2026-10-02 08:42:20 | INFO    | POST /api/auth/register -> 422 (1 ms)
+2026-10-02 08:42:20 | INFO    | POST /api/auth/register -> 422 (1 ms)
+2026-10-02 08:42:21 | INFO    | POST /api/auth/register -> 422 (1 ms)
+2026-10-02 08:42:21 | INFO    | POST /api/auth/register -> 422 (1 ms)
+2026-10-02 08:42:55 | INFO    | POST /api/auth/register -> 422 (1 ms)
+2026-10-02 08:44:51 | INFO    | New user registered: Rakib_02
+2026-10-02 08:44:51 | INFO    | POST /api/auth/register -> 200 (88 ms)
+2026-10-02 08:44:52 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-02 08:45:16 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-02 08:45:25 | INFO    | user=Rakib_02 q='How much is a single room in the hostel?' search='How much is a single room in the hostel?' best_sim=0.586 relevant=4
+2026-10-02 08:45:26 | ERROR   | Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/d
+2026-10-02 08:45:26 | INFO    | POST /api/chat -> 503 (959 ms)
+2026-10-02 08:47:04 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-02 08:47:05 | INFO    | user=Rakib_02 q='What GPA do I need to apply?' search='What GPA do I need to apply?' best_sim=0.488 relevant=4
+2026-10-02 08:47:06 | ERROR   | Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/d
+2026-10-02 08:47:06 | INFO    | POST /api/chat -> 503 (711 ms)
+2026-10-02 08:47:31 | INFO    | GET /api/chat/sessions -> 200 (3 ms)
+2026-10-02 08:47:33 | INFO    | user=Rakib_02 q='How much is a single room in the hostel?' search='How much is a single room in the hostel?' best_sim=0.586 relevant=4
+2026-10-02 08:47:33 | ERROR   | Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/d
+2026-10-02 08:47:33 | INFO    | POST /api/chat -> 503 (730 ms)
+2026-10-02 08:48:10 | INFO    | Backend stopped.
+2026-10-02 08:48:15 | INFO    | Starting backend ...
+2026-10-02 08:48:15 | INFO    | Loading starter documents (the first start downloads a small embedding model) ...
+2026-10-02 08:48:16 | INFO    | Ready. New starter documents loaded: 0. Total chunks: 15. Model: GEMINI_MODEL=gemini-2.5-flash-preview-04-17
+2026-10-02 08:48:20 | INFO    | GET /api/chat/sessions -> 200 (3 ms)
+2026-10-02 08:48:25 | INFO    | GET /api/chat/sessions/e3fac4a2-b0b4-48ba-a1d6-3e1f82a0bb88 -> 200 (3 ms)
+2026-10-02 08:48:25 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-02 08:48:30 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-02 08:48:32 | INFO    | user=Rakib_02 q='What GPA do I need to apply?' search='What GPA do I need to apply?' best_sim=0.488 relevant=4
+2026-10-02 08:48:32 | ERROR   | Gemini error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2026-10-02 08:48:32 | INFO    | POST /api/chat -> 503 (907 ms)
+2026-10-02 08:48:37 | INFO    | GET /api/chat/sessions/e248a84f-65c1-4f11-82e7-5d625bd1e55f -> 200 (2 ms)
+2026-10-02 08:48:37 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-02 08:48:41 | INFO    | GET /api/chat/sessions/b3bee7cc-51a5-4efc-a10e-ac9dfac627dc -> 200 (2 ms)
+2026-10-02 08:48:41 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-02 08:48:43 | INFO    | DELETE /api/chat/sessions/b3bee7cc-51a5-4efc-a10e-ac9dfac627dc -> 200 (5 ms)
+2026-10-02 08:48:43 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-02 08:48:43 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-02 08:48:47 | INFO    | DELETE /api/chat/sessions/e3fac4a2-b0b4-48ba-a1d6-3e1f82a0bb88 -> 200 (5 ms)
+2026-10-02 08:48:47 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-02 08:48:49 | INFO    | DELETE /api/chat/sessions/c9e61d92-02f6-4718-adab-6c4514e705e6 -> 200 (6 ms)
+2026-10-02 08:48:49 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-02 08:48:50 | INFO    | user=Rakib_02 q='Which scholarships are there for new students?' search='Which scholarships are there for new students?' best_sim=0.476 relevant=2
+2026-10-02 08:48:50 | ERROR   | Gemini error: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}
+2026-10-02 08:48:50 | INFO    | POST /api/chat -> 503 (472 ms)
+2026-10-02 08:49:32 | INFO    | Backend stopped.
+2026-10-02 08:49:40 | INFO    | Starting backend ...
+2026-10-02 08:49:40 | INFO    | Loading starter documents (the first start downloads a small embedding model) ...
+2026-10-02 08:49:40 | INFO    | Ready. New starter documents loaded: 0. Total chunks: 15. Model: gemini-2.5-flash-preview-04-17
+2026-10-02 08:49:45 | INFO    | GET /api/chat/sessions -> 200 (3 ms)
+2026-10-02 08:49:47 | INFO    | user=Rakib_02 q='What GPA do I need to apply?' search='What GPA do I need to apply?' best_sim=0.488 relevant=4
+2026-10-02 08:49:48 | ERROR   | Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.5-flash-preview-04-17 is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-10-02 08:49:48 | INFO    | POST /api/chat -> 503 (897 ms)
+2026-10-02 08:50:21 | INFO    | Backend stopped.
+2026-10-02 08:50:28 | INFO    | Starting backend ...
+2026-10-02 08:50:28 | INFO    | Loading starter documents (the first start downloads a small embedding model) ...
+2026-10-02 08:50:28 | INFO    | Ready. New starter documents loaded: 0. Total chunks: 15. Model: gemini-flash-latest
+2026-10-02 08:50:33 | INFO    | GET /api/chat/sessions -> 200 (6 ms)
+2026-10-02 08:50:34 | INFO    | user=Rakib_02 q='What GPA do I need to apply?' search='What GPA do I need to apply?' best_sim=0.488 relevant=4
+2026-10-02 08:50:35 | ERROR   | Gemini error: 403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}
+2026-10-02 08:50:35 | INFO    | POST /api/chat -> 503 (875 ms)
+2026-10-02 08:51:09 | INFO    | Backend stopped.
+2026-10-02 08:51:15 | INFO    | Starting backend ...
+2026-10-02 08:51:15 | INFO    | Loading starter documents (the first start downloads a small embedding model) ...
+2026-10-02 08:51:15 | INFO    | Ready. New starter documents loaded: 0. Total chunks: 15. Model: gemini-flash-latest
+2026-10-02 08:51:19 | INFO    | GET /api/chat/sessions -> 200 (4 ms)
+2026-10-02 08:51:21 | INFO    | user=Rakib_02 q='What GPA do I need to apply?' search='What GPA do I need to apply?' best_sim=0.488 relevant=4
+2026-10-02 08:51:21 | ERROR   | Gemini error: 403 PERMISSION_DENIED. {'error': {'code': 403, 'message': 'Your project has been denied access. Please contact support.', 'status': 'PERMISSION_DENIED'}}
+2026-10-02 08:51:21 | INFO    | POST /api/chat -> 503 (935 ms)
+2026-10-02 08:59:10 | INFO    | Backend stopped.
+2026-10-02 08:59:15 | INFO    | Starting backend ...
+2026-10-02 08:59:15 | INFO    | Loading starter documents (the first start downloads a small embedding model) ...
+2026-10-02 08:59:15 | INFO    | Ready. New starter documents loaded: 0. Total chunks: 15. Model: gemini-flash-latest
+2026-10-02 08:59:28 | INFO    | GET /api/chat/sessions -> 200 (3 ms)
+2026-10-02 08:59:30 | INFO    | user=Rakib_02 q='What GPA do I need to apply?' search='What GPA do I need to apply?' best_sim=0.488 relevant=4
+2026-10-02 08:59:41 | INFO    | POST /api/chat -> 200 (11605 ms)
+2026-10-02 08:59:41 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-03 13:14:05 | INFO    | Starting backend ...
+2026-10-03 13:14:05 | INFO    | Loading starter documents (the first start downloads a small embedding model) ...
+2026-10-03 13:14:07 | INFO    | Ready. New starter documents loaded: 0. Total chunks: 15. Model: gemini-flash-latest
+2026-10-03 13:14:23 | INFO    | GET /api/chat/sessions -> 401 (5 ms)
+2026-10-03 13:14:52 | INFO    | Login: Rakib_02 (user)
+2026-10-03 13:14:52 | INFO    | POST /api/auth/login -> 200 (62 ms)
+2026-10-03 13:14:52 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-03 13:16:02 | INFO    | POST /api/auth/register -> 409 (3 ms)
+2026-10-03 13:16:18 | WARNING | Failed login for 'admin'
+2026-10-03 13:16:18 | INFO    | POST /api/auth/login -> 401 (61 ms)
+2026-10-03 13:16:30 | WARNING | Failed login for 'admin'
+2026-10-03 13:16:30 | INFO    | POST /api/auth/login -> 401 (61 ms)
+2026-10-03 13:16:50 | INFO    | POST /api/auth/register -> 409 (1 ms)
+2026-10-03 13:19:15 | INFO    | POST /api/auth/register -> 409 (1 ms)
+2026-10-03 13:19:19 | INFO    | Login: admin (admin)
+2026-10-03 13:19:19 | INFO    | POST /api/auth/login -> 200 (70 ms)
+2026-10-03 13:19:19 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-03 13:19:46 | INFO    | GET /api/admin/stats -> 200 (13 ms)
+2026-10-03 13:19:46 | INFO    | GET /api/admin/documents -> 200 (5 ms)
+2026-10-03 13:19:46 | INFO    | GET /api/admin/logs -> 200 (2 ms)
+2026-10-03 13:20:45 | INFO    | GET /api/chat/sessions -> 200 (3 ms)
+2026-10-03 13:21:08 | INFO    | user=admin q='What is my name' search='What is my name' best_sim=0.029 relevant=0
+2026-10-03 13:21:08 | INFO    | Fallback reply (not in knowledge base) for: 'What is my name'
+2026-10-03 13:21:08 | INFO    | POST /api/chat -> 200 (9257 ms)
+2026-10-03 13:21:08 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-03 13:22:15 | INFO    | user=admin q='Well, then give me information about the curriculam about the cse department' search='Give me information about the curriculum of the CSE department.' best_sim=0.556 relevant=4
+2026-10-03 13:22:26 | INFO    | POST /api/chat -> 200 (15277 ms)
+2026-10-03 13:26:14 | INFO    | GET /api/admin/documents -> 200 (10 ms)
+2026-10-03 13:26:14 | INFO    | GET /api/admin/logs -> 200 (9 ms)
+2026-10-03 13:26:14 | INFO    | GET /api/admin/stats -> 200 (10 ms)
+2026-10-03 13:26:20 | INFO    | Added document 'https://www.thedailystar.net/' (web): 11 chunks, 1561 words
+2026-10-03 13:26:20 | INFO    | POST /api/admin/documents/url -> 200 (1535 ms)
+2026-10-03 13:26:20 | INFO    | GET /api/admin/logs -> 200 (5 ms)
+2026-10-03 13:26:20 | INFO    | GET /api/admin/documents -> 200 (5 ms)
+2026-10-03 13:26:20 | INFO    | GET /api/admin/stats -> 200 (12 ms)
+2026-10-03 13:28:02 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-03 13:28:36 | INFO    | user=admin q='I've added the page of daily star what is the top news of today' search='I've added the page of daily star what is the top news of today' best_sim=0.346 relevant=4
+2026-10-03 13:28:56 | INFO    | POST /api/chat -> 200 (20757 ms)
+2026-10-03 13:28:57 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-03 13:30:59 | ERROR   | Gemini error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-03 13:31:00 | INFO    | user=admin q='What Dinesh Trivedi spoke about Hasina' search='I've added the page of daily star what is the top news of today What Dinesh Triv' best_sim=0.456 relevant=4
+2026-10-03 13:31:05 | ERROR   | Gemini error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-03 13:31:05 | INFO    | POST /api/chat -> 503 (39589 ms)
+2026-10-03 13:32:14 | INFO    | GET /api/admin/documents -> 200 (3 ms)
+2026-10-03 13:32:14 | INFO    | GET /api/admin/logs -> 200 (3 ms)
+2026-10-03 13:32:14 | INFO    | GET /api/admin/stats -> 200 (5 ms)
+2026-10-03 13:32:17 | INFO    | Deleted document 275143a23656
+2026-10-03 13:32:17 | INFO    | DELETE /api/admin/documents/275143a23656 -> 200 (41 ms)
+2026-10-03 13:32:17 | INFO    | GET /api/admin/logs -> 200 (4 ms)
+2026-10-03 13:32:17 | INFO    | GET /api/admin/stats -> 200 (10 ms)
+2026-10-03 13:32:17 | INFO    | GET /api/admin/documents -> 200 (3 ms)
+2026-10-03 13:32:30 | INFO    | GET /api/admin/logs -> 200 (2 ms)
+2026-10-03 13:32:31 | INFO    | GET /api/admin/logs -> 200 (2 ms)
+2026-10-03 13:32:32 | INFO    | GET /api/admin/logs -> 200 (2 ms)
+2026-10-03 13:35:30 | INFO    | Added document 'Test PDF (Easy).pdf' (pdf): 3 chunks, 390 words
+2026-10-03 13:35:30 | INFO    | POST /api/admin/documents/upload -> 200 (807 ms)
+2026-10-03 13:35:30 | INFO    | GET /api/admin/documents -> 200 (4 ms)
+2026-10-03 13:35:30 | INFO    | GET /api/admin/logs -> 200 (3 ms)
+2026-10-03 13:35:30 | INFO    | GET /api/admin/stats -> 200 (3 ms)
+2026-10-03 13:35:47 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-03 13:39:48 | INFO    | user=admin q='What is the official language of Bangladesh' search='What is the official language of Bangladesh' best_sim=0.687 relevant=4
+2026-10-03 13:39:56 | ERROR   | Gemini error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-03 13:39:56 | INFO    | POST /api/chat -> 503 (7945 ms)
+2026-10-03 13:41:10 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-03 13:41:14 | INFO    | GET /api/chat/sessions/e127f2ca-adf3-41c8-85ba-67f1fe24ebef -> 200 (2 ms)
+2026-10-03 13:41:14 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-03 13:41:34 | INFO    | user=admin q='What is the official language of Banglasdesh' search='What is the official language of Banglasdesh' best_sim=0.369 relevant=2
+2026-10-03 13:41:57 | INFO    | POST /api/chat -> 200 (23035 ms)
+2026-10-03 13:44:30 | ERROR   | Gemini error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-03 13:44:30 | INFO    | user=admin q='Which forest is well known for rich biodiversisity' search='What is the official language of Banglasdesh Which forest is well known for rich' best_sim=0.457 relevant=3
+2026-10-03 13:44:58 | INFO    | POST /api/chat -> 200 (75972 ms)
+2026-10-04 06:13:25 | INFO    | Starting backend ...
+2026-10-04 06:13:25 | INFO    | Loading starter documents (the first start downloads a small embedding model) ...
+2026-10-04 06:13:28 | INFO    | Ready. New starter documents loaded: 0. Total chunks: 18. Model: gemini-flash-latest
+2026-10-04 06:13:44 | INFO    | GET /api/chat/sessions -> 401 (2 ms)
+2026-10-04 06:13:53 | INFO    | Login: Rakib_02 (user)
+2026-10-04 06:13:53 | INFO    | POST /api/auth/login -> 200 (63 ms)
+2026-10-04 06:13:53 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:14:08 | INFO    | DELETE /api/chat/sessions/f19c2e50-96ee-4f90-a9e1-f3ec70175dfc -> 200 (6 ms)
+2026-10-04 06:14:08 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:14:11 | INFO    | DELETE /api/chat/sessions/242577e4-5cbb-4f53-9d93-71c774f7cbfc -> 200 (6 ms)
+2026-10-04 06:14:12 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:14:14 | INFO    | DELETE /api/chat/sessions/e248a84f-65c1-4f11-82e7-5d625bd1e55f -> 200 (6 ms)
+2026-10-04 06:14:14 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:14:17 | INFO    | DELETE /api/chat/sessions/829327ed-973c-4766-b720-bb462a4acdaa -> 200 (6 ms)
+2026-10-04 06:14:17 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:14:21 | INFO    | DELETE /api/chat/sessions/baee42ac-79cf-492c-9798-3f5e230f137e -> 200 (6 ms)
+2026-10-04 06:14:21 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:14:23 | INFO    | DELETE /api/chat/sessions/491e70af-6de0-4ed2-ba93-ac34c36b6928 -> 200 (8 ms)
+2026-10-04 06:14:24 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:18:11 | INFO    | POST /api/chat -> 200 (17 ms)
+2026-10-04 06:18:11 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:19:37 | INFO    | user=Rakib_02 q='What GPA do I need to apply?' search='What GPA do I need to apply?' best_sim=0.488 relevant=4
+2026-10-04 06:19:38 | ERROR   | Gemini error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-04 06:19:38 | INFO    | POST /api/chat -> 503 (17355 ms)
+2026-10-04 06:27:15 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:27:22 | INFO    | user=Rakib_02 q='What GPA do I need to apply?' search='What GPA do I need to apply?' best_sim=0.488 relevant=4
+2026-10-04 06:27:23 | ERROR   | Gemini error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-04 06:27:23 | INFO    | POST /api/chat -> 503 (1632 ms)
+2026-10-04 06:34:50 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:34:54 | INFO    | POST /api/chat -> 200 (17 ms)
+2026-10-04 06:34:54 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:34:57 | INFO    | GET /api/chat/sessions/414f6b23-bdec-4f49-a2ce-440be815dd92 -> 200 (3 ms)
+2026-10-04 06:34:57 | INFO    | GET /api/chat/sessions -> 200 (3 ms)
+2026-10-04 06:35:00 | INFO    | DELETE /api/chat/sessions/414f6b23-bdec-4f49-a2ce-440be815dd92 -> 200 (6 ms)
+2026-10-04 06:35:00 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:35:00 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:35:08 | INFO    | DELETE /api/chat/sessions/ff8ff417-6d6c-4470-9521-dbfc648ede53 -> 200 (6 ms)
+2026-10-04 06:35:08 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:35:12 | INFO    | GET /api/chat/sessions/8c5b3515-a4ef-4809-9ef0-64748c4c3c40 -> 200 (2 ms)
+2026-10-04 06:35:14 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:35:38 | INFO    | user=Rakib_02 q='What GPA do I need to apply?' search='What GPA do I need to apply?' best_sim=0.488 relevant=4
+2026-10-04 06:36:15 | ERROR   | Gemini error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-04 06:36:15 | INFO    | POST /api/chat -> 503 (47058 ms)
+2026-10-04 06:37:05 | INFO    | Backend stopped.
+2026-10-04 06:40:13 | INFO    | Starting backend ...
+2026-10-04 06:40:13 | INFO    | Loading starter documents (the first start downloads a small embedding model) ...
+2026-10-04 06:40:13 | INFO    | Ready. New starter documents loaded: 0. Total chunks: 18. Model: gemini-2.5-flash-preview-04-17
+2026-10-04 06:40:18 | INFO    | GET /api/chat/sessions -> 200 (3 ms)
+2026-10-04 06:40:21 | INFO    | GET /api/chat/sessions/8c5b3515-a4ef-4809-9ef0-64748c4c3c40 -> 200 (3 ms)
+2026-10-04 06:40:21 | INFO    | GET /api/chat/sessions -> 200 (3 ms)
+2026-10-04 06:40:39 | ERROR   | Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.5-flash-preview-04-17 is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-10-04 06:40:39 | INFO    | user=Rakib_02 q='What GPA do I need to apply?' search='hi What GPA do I need to apply?' best_sim=0.509 relevant=4
+2026-10-04 06:40:40 | ERROR   | Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-2.5-flash-preview-04-17 is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-10-04 06:40:40 | INFO    | POST /api/chat -> 503 (1355 ms)
+2026-10-04 06:54:14 | INFO    | Starting backend ...
+2026-10-04 06:54:14 | INFO    | Loading starter documents (the first start downloads a small embedding model) ...
+2026-10-04 06:54:14 | INFO    | Ready. New starter documents loaded: 0. Total chunks: 18. Model: gemini-1.5-flash
+2026-10-04 06:57:09 | INFO    | GET /api/chat/sessions -> 200 (3 ms)
+2026-10-04 06:57:15 | INFO    | GET /api/chat/sessions/8c5b3515-a4ef-4809-9ef0-64748c4c3c40 -> 200 (3 ms)
+2026-10-04 06:57:15 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:57:28 | ERROR   | Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-10-04 06:57:28 | INFO    | user=Rakib_02 q='What GPA do I need to apply?' search='hi What GPA do I need to apply?' best_sim=0.509 relevant=4
+2026-10-04 06:57:29 | ERROR   | Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-10-04 06:57:29 | INFO    | POST /api/chat -> 503 (1379 ms)
+2026-10-04 06:58:25 | ERROR   | Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-10-04 06:58:26 | INFO    | user=Rakib_02 q='What GPA do I need to apply?' search='hi What GPA do I need to apply?' best_sim=0.509 relevant=4
+2026-10-04 06:58:26 | ERROR   | Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-10-04 06:58:26 | INFO    | POST /api/chat -> 503 (1058 ms)
+2026-10-04 06:58:35 | INFO    | Backend stopped.
+2026-10-04 06:58:40 | INFO    | Starting backend ...
+2026-10-04 06:58:40 | INFO    | Loading starter documents (the first start downloads a small embedding model) ...
+2026-10-04 06:58:41 | INFO    | Ready. New starter documents loaded: 0. Total chunks: 18. Model: gemini-flash-latest
+2026-10-04 06:58:49 | INFO    | GET /api/chat/sessions -> 200 (3 ms)
+2026-10-04 06:58:56 | INFO    | POST /api/chat -> 200 (17 ms)
+2026-10-04 06:58:56 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:58:58 | INFO    | GET /api/chat/sessions/8c5b3515-a4ef-4809-9ef0-64748c4c3c40 -> 200 (3 ms)
+2026-10-04 06:58:59 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:59:01 | INFO    | DELETE /api/chat/sessions/8c5b3515-a4ef-4809-9ef0-64748c4c3c40 -> 200 (8 ms)
+2026-10-04 06:59:01 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:59:01 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:59:08 | INFO    | GET /api/chat/sessions/ebdf31b7-7dae-4362-8807-abb8e7935eb7 -> 200 (3 ms)
+2026-10-04 06:59:08 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 06:59:26 | INFO    | user=Rakib_02 q='How much is single room in the hostel?' search='How much is single room in the hostel?' best_sim=0.582 relevant=4
+2026-10-04 06:59:29 | INFO    | POST /api/chat -> 200 (6485 ms)
+2026-10-04 06:59:53 | ERROR   | Gemini error: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-04 06:59:53 | INFO    | user=Rakib_02 q='Meal Cost?' search='How much is single room in the hostel? Meal Cost?' best_sim=0.598 relevant=4
+2026-10-04 06:59:57 | INFO    | POST /api/chat -> 200 (7778 ms)
+2026-10-04 07:00:30 | INFO    | user=Rakib_02 q='Who won the FIFA world CUP of 2026?' search='Who won the FIFA world CUP of 2026?' best_sim=0.097 relevant=0
+2026-10-04 07:00:30 | INFO    | Fallback reply (not in knowledge base) for: 'Who won the FIFA world CUP of 2026?'
+2026-10-04 07:00:30 | INFO    | POST /api/chat -> 200 (3579 ms)
+2026-10-04 07:04:38 | INFO    | Login: admin (admin)
+2026-10-04 07:04:38 | INFO    | POST /api/auth/login -> 200 (67 ms)
+2026-10-04 07:04:38 | INFO    | GET /api/chat/sessions -> 200 (2 ms)
+2026-10-04 07:04:52 | INFO    | GET /api/admin/stats -> 200 (7 ms)
+2026-10-04 07:04:52 | INFO    | GET /api/admin/logs -> 200 (7 ms)
+2026-10-04 07:04:52 | INFO    | GET /api/admin/documents -> 200 (2 ms)
