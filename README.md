@@ -6,7 +6,7 @@
 ![Gemini](https://img.shields.io/badge/LLM-Google%20Gemini-4285F4?logo=google&logoColor=white)
 ![Frontend](https://img.shields.io/badge/Frontend-HTML%20%2B%20CSS%20%2B%20JS-yellow)
 
-**Name:** Rakib Hasan | **ID:** YOUR-ID | **Course:** SICIP – Final Project 1
+**Name:** Rakib Hasan | **ID:** 1000129213 | **Course:** SICIP – Final Project 1
 
 A chatbot that learns from **your documents** (PDF, Word, text, web pages) and answers **only** from them.
 If the answer is not in the documents, it says so politely. It never guesses.
