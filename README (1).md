@@ -6,7 +6,7 @@
 ![Multi-LLM](https://img.shields.io/badge/LLM-Multi--Provider%20Fallback-blueviolet)
 ![Frontend](https://img.shields.io/badge/Frontend-HTML%20%2B%20CSS%20%2B%20JS-yellow)
 
-**Name:** Rakib Hasan | **ID:** 1000129213 | **Course:** SICIP – Final Project 1
+**LogIn with User:admin and password:admin123 to get the document upload,API doc and Backend Log. Normal User only can chat based on the uploaded documents**
 
 A chatbot that learns from **your documents** (PDF, Word, text, web pages) and answers **only** from them.
 If the answer is not in the documents, it says so politely. It never guesses.
