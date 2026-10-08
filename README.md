@@ -163,7 +163,6 @@ cp .env.example .env            # then add your API key(s) inside .env
 uvicorn app.main:app --reload
 ```
 
-Open http://127.0.0.1:8000 for the chat, http://127.0.0.1:8000/docs for API docs.
 Default admin login: `admin` / `admin123`.
 
 > First start downloads an embedding model (~80 MB) and indexes sample documents. Takes about a minute.
