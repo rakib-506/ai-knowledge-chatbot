@@ -58,9 +58,9 @@ The system does **not** depend on a single AI provider. Instead, it tries up to 
 | Provider | Models | Cost |
 | --- | --- | --- |
 | Google Gemini | Gemini Flash Latest, Gemini 2.5 Flash Preview | Free tier |
-| Groq | Llama 3.3 70B, Llama 3.1 8B, GPT-OSS 20B | Free tier (no credit card) |
+| Groq | Llama 3.3 70B, Llama 3.1 8B, GPT-OSS 20B | Free tier |
 | xAI Grok | Grok 3 Mini Fast | Free tier |
-| OpenRouter | Gemma 4 27B, Gemma 4 31B, Nemotron Lightning, Nemotron Super, Qwen 3.8 27B | Free models (no credit card) |
+| OpenRouter | Gemma 4 27B, Gemma 4 31B, Nemotron Lightning, Nemotron Super, Qwen 3.8 27B | Free models |
 
 You only need **one** API key to get started. The more keys you add, the more backup models you have.
 
@@ -144,8 +144,8 @@ The `knowledge_base/` folder has a sample help desk for a **fictional** universi
 | Provider | Get your free key at |
 | --- | --- |
 | Google Gemini | [ai.google.dev](https://ai.google.dev) |
-| Groq | [console.groq.com](https://console.groq.com) (no credit card) |
-| OpenRouter | [openrouter.ai](https://openrouter.ai) (no credit card) |
+| Groq | [console.groq.com](https://console.groq.com)  |
+| OpenRouter | [openrouter.ai](https://openrouter.ai)  |
 | xAI Grok | [console.x.ai](https://console.x.ai) |
 
 ```bash
