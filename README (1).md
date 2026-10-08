@@ -223,20 +223,7 @@ ai-knowledge-chatbot/
 
 ---
 
-## ⚙️ Settings (`backend/.env`)
 
-| Setting | Default | Meaning |
-| --- | --- | --- |
-| `GEMINI_API_KEY` | – | Google Gemini key (optional, from [ai.google.dev](https://ai.google.dev)) |
-| `GROQ_API_KEY` | – | Groq key (optional, free at [console.groq.com](https://console.groq.com)) |
-| `OPENROUTER_API_KEY` | – | OpenRouter key (optional, free at [openrouter.ai](https://openrouter.ai)) |
-| `GROK_API_KEY` | – | xAI Grok key (optional, from [console.x.ai](https://console.x.ai)) |
-| `CHUNK_WORDS` / `CHUNK_OVERLAP` | 180 / 40 | Chunk size and overlap (words) |
-| `TOP_K` | 4 | How many chunks to search |
-| `MIN_SIMILARITY` | 0.25 | Lower = answers more, higher = stricter |
-| `MEMORY_MESSAGES` | 6 | How many past messages the bot remembers |
-
-> **Tip:** You need at least one API key. The more you add, the more backup models you get. All providers above offer free tiers.
 
 ---
 
