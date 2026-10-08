@@ -6,6 +6,7 @@ Then open http://127.0.0.1:8000 (chat app) and http://127.0.0.1:8000/docs (API d
 """
 import time
 from contextlib import asynccontextmanager
+from .llm import get_active_model
 
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -65,10 +66,9 @@ app.include_router(chat.router)
 app.include_router(knowledge.router)
 
 
-@app.get("/api/health", tags=["System"], summary="Check that the backend is running")
+@app.get("/api/health")
 def health():
-    return {"status": "ok", "model": GEMINI_MODEL, "chunks": kb.total_chunks()}
-
+    return {"status": "ok", "model": get_active_model()}
 
 # Serve the frontend files (must be last, so /api routes win)
 app.mount("/", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend")

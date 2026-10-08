@@ -9,3 +9,5 @@ beautifulsoup4>=4.12
 requests>=2.31
 PyJWT>=2.7
 python-dotenv>=1.0
+openai
+huggingface_hub

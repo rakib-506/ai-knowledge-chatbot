@@ -15,7 +15,7 @@ from . import knowledge_base as kb
 from . import llm
 from .config import MIN_SIMILARITY, MEMORY_MESSAGES, REWRITE_FOLLOWUPS
 from .logger import log
-
+from .llm import generate
 SYSTEM_PROMPT = """You are a helpful knowledge assistant. You answer ONLY with facts from the CONTEXT.
 Rules:
 1. Use only the CONTEXT. Never use outside knowledge, even if you know the answer.
