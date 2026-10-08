@@ -101,9 +101,9 @@ The system does not depend on a single AI provider. It tries up to 11 models acr
 | Provider | Models | Cost |
 | --- | --- | --- |
 | Google Gemini | Gemini Flash Latest, Gemini 2.5 Flash Preview | Free tier |
-| Groq | Llama 3.3 70B, Llama 3.1 8B, GPT-OSS 20B | Free, no credit card |
+| Groq | Llama 3.3 70B, Llama 3.1 8B, GPT-OSS 20B | Free version|
 | xAI Grok | Grok 3 Mini Fast | Free tier |
-| OpenRouter | Gemma 4 27B/31B, Nemotron Lightning/Super, Qwen 3.8 27B | Free, no credit card |
+| OpenRouter | Gemma 4 27B/31B, Nemotron Lightning/Super, Qwen 3.8 27B | Free Version|
 
 You need at least one API key. The more you add, the more backup models you have.
 
