@@ -7,9 +7,9 @@
 ![RAG](https://img.shields.io/badge/Architecture-RAG-green)
 ![Deploy](https://img.shields.io/badge/Deployed%20on-Render-46E3B7?logo=render&logoColor=white)
 
-**Rakib Hasan** | Student ID: 1000129213 | SICIP Batch 2, Final Project 1
+**Rakib Hasan** |
 
-[Live Demo](https://ai-knowledge-chatbot.onrender.com) | [API Docs](https://ai-knowledge-chatbot.onrender.com/docs)
+[Live Demo](https://ai-knowledge-chatbot-n8vz.onrender.com/) | [API Docs](https://ai-knowledge-chatbot-n8vz.onrender.com/docs)
 
 ---
 
