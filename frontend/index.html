@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KnowledgeDesk · Sign in</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="auth">
+    <aside class="auth-side">
+      <div class="brand"><span class="brand-mark"></span>KnowledgeDesk</div>
+      <div>
+        <h1>Answers from your own documents</h1>
+        <p>Ask a question in plain words. The assistant answers only from the knowledge base and shows which document each answer came from.</p>
+      </div>
+      <small>If something is not in the documents, it tells you so instead of guessing.</small>
+    </aside>
+
+    <main class="auth-main">
+      <div class="auth-card">
+        <div class="tabs" role="tablist">
+          <button class="tab" role="tab" id="tab-login" aria-selected="true">Sign in</button>
+          <button class="tab" role="tab" id="tab-register" aria-selected="false">Create account</button>
+        </div>
+
+        <form id="auth-form" novalidate>
+          <label class="field"><span>Username</span>
+            <input class="input" id="username" autocomplete="username" required minlength="3">
+          </label>
+          <label class="field"><span>Password</span>
+            <input class="input" id="password" type="password" autocomplete="current-password" required minlength="6">
+          </label>
+          <div class="error-text" id="auth-error" role="alert"></div>
+          <button class="btn" id="auth-submit" type="submit">Sign in</button>
+        </form>
+        <p class="hint" id="auth-hint">New here? Choose “Create account”. Usernames use letters, numbers, dots, dashes or underscores. Passwords need 6 or more characters.</p>
+      </div>
+    </main>
+  </div>
+  <script src="js/api.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>
